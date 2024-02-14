@@ -8,7 +8,7 @@ from IPython.display import Markdown
 
 import streamlit as st
 
-genai.configure(api_key='AIzaSyDtLzNrhwHgf5yUqJErKagJDU8S8Lxg2jM')
+genai.configure(api_key='Your API Key')
 model = genai.GenerativeModel('gemini-pro')
 
 
